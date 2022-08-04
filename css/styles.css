@@ -32,8 +32,7 @@ body {
 
 .section-title,
 .profits-title,
-.team-title,
-.project-title {
+.team-title {
     color: var(--main-title-color);
 }
 
@@ -45,12 +44,13 @@ body {
 }
 
 .profits .section-title,
-.projects, .section-title {
+.projects .section-title {
     font-size: 0;
 }
 
 .profits-title {
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.17;
     text-transform: uppercase;
 }
@@ -66,6 +66,7 @@ body {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--main-title-color)
 }
 
 .link {
@@ -74,14 +75,6 @@ body {
 
 ul {
     list-style: none;
-}
-
-.logo {
-    color: var(--logo-color);
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
 }
 
 .logo span,
@@ -96,8 +89,16 @@ a.link.current {
     letter-spacing: 0.02em;
 }
 
-.menu .link {
-    color: var(--main-title-color);
+.logo {
+    color: var(--logo-color);
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.main-footer .logo {
+    color: var(--main-color);
 }
 
 .contacts .link {
@@ -180,6 +181,7 @@ a.link.current {
     background-color: var(--secondary-dark-color);
 }
 
+
 .team {
     background-color: var(--secondary-white-color);
 }
@@ -206,6 +208,7 @@ a.link.current {
 }
 
 .project-type {
+    color: var(--main-text-color);
     font-size: 16px;
     line-height: 1.87;
 }
