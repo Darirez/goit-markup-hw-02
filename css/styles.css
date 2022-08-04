@@ -89,6 +89,10 @@ a.link.current {
     letter-spacing: 0.02em;
 }
 
+.menu .link {
+    color: var(--main-title-color)
+}
+
 .logo {
     color: var(--logo-color);
     font-family: "Raleway", sans-serif;
